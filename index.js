@@ -11,6 +11,7 @@ if (resumeForm && resumeOutput) {
         var workExperienceInput = document.getElementById('workExperience');
         var skillsInput = document.getElementById('skills');
         var othersInput = document.getElementById('others');
+         console.log(workExperienceInput); // Check if this logs the correct element
         // Check for null before accessing .value
         var name = nameInput ? nameInput.value : '';
         var email = emailInput ? emailInput.value : '';
